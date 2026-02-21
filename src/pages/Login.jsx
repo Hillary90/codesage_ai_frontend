@@ -33,7 +33,7 @@ const Login = () => {
 
     try {
       await login(formData.email, formData.password);
-      toast.success('Welcome back! 🎉');
+      toast.success('Welcome back!');
       navigate('/dashboard');
     } catch (error) {
       console.error('Login error:', error);

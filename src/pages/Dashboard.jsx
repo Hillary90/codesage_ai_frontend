@@ -127,7 +127,7 @@ const Dashboard = () => {
     <div className="dashboard">
       <header className="dashboard-header">
         <div>
-          <h1>Welcome back, {user?.name}! 👋</h1>
+          <h1>Welcome back, {user?.name}!</h1>
           <p>Your code quality journey with CodeSage AI</p>
         </div>
         <button 

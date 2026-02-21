@@ -1,0 +1,29 @@
+.code-editor-container {
+  border: 2px solid #e2e8f0;
+  border-radius: 0.5rem;
+  overflow: hidden;
+  background: #1e1e1e;
+}
+
+.code-editor-container .monaco-editor {
+  padding: 0;
+}
+
+/* Custom scrollbar for editor */
+.code-editor-container ::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+.code-editor-container ::-webkit-scrollbar-track {
+  background: #1e1e1e;
+}
+
+.code-editor-container ::-webkit-scrollbar-thumb {
+  background: #3e3e42;
+  border-radius: 5px;
+}
+
+.code-editor-container ::-webkit-scrollbar-thumb:hover {
+  background: #4e4e52;
+}

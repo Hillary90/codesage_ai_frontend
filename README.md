@@ -1,8 +1,10 @@
 # CodeSage AI - Frontend
 
-AI-Powered Code Review and Developer Portfolio Builder
+An intelligent, AI-powered platform that revolutionizes code review and developer portfolio management. CodeSage AI leverages advanced artificial intelligence to provide instant, comprehensive code analysis while helping developers showcase their best work through beautiful, interactive portfolios.
 
-## Features
+**Live App:** https://codesage-ai-frontend.vercel.app/
+
+##  Features
 
 - **AI Code Review**: Get instant feedback on your code quality, security, and best practices
 - **Developer Portfolio**: Showcase your projects and code reviews
@@ -22,12 +24,12 @@ AI-Powered Code Review and Developer Portfolio Builder
 - **Framer Motion** - Animations
 - **React Hot Toast** - Notifications
 
-## Prerequisites
+##  Prerequisites
 
 - Node.js 16+ and npm/yarn
 - Backend API running (see backend README)
 
-## Installation
+##  Installation
 
 1. Clone the repository:
 ```bash
@@ -47,7 +49,7 @@ cp .env.example .env
 
 4. Configure environment variables in `.env`:
 ```env
-VITE_API_URL=http://localhost:5000/api
+VITE_API_URL=https://codesage-ai-backend-oke3.onrender.com/api
 VITE_APP_NAME=CodeSage AI
 ```
 
@@ -91,27 +93,18 @@ src/
 └── main.jsx         # Entry point
 ```
 
-##  Testing
+## Testing
 
 ```bash
 npm run test
 ```
 
-##  Available Scripts
+##  Deployment on Vercel
 
-- `npm run dev` - Start development server
-- `npm run build` - Build for production
-- `npm run preview` - Preview production build
-- `npm run lint` - Run ESLint
-- `npm run format` - Format code with Prettier
-- `npm run test` - Run tests
-
-## Environment Variables
-
-| Variable | Description | Default |
-|----------|-------------|---------|
-| `VITE_API_URL` | Backend API URL | `http://localhost:5000/api` |
-| `VITE_APP_NAME` | Application name | `CodeSage AI` |
+### Prerequisites
+- GitHub account
+- Vercel account
+- Backend deployed on Render
 
 ##  Contributing
 
@@ -135,3 +128,4 @@ This project is licensed under the MIT License.
 - OpenAI for AI capabilities
 - Monaco Editor for code editing
 - React community for amazing tools
+- Vercel for hosting

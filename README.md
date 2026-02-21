@@ -27,7 +27,7 @@ AI-Powered Code Review and Developer Portfolio Builder
 - Node.js 16+ and npm/yarn
 - Backend API running (see backend README)
 
-## 🔧 Installation
+## Installation
 
 1. Clone the repository:
 ```bash
